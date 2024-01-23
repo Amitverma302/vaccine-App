@@ -1,0 +1,106 @@
+.Home {
+  width: 27%;
+  height: 377px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 211px;
+  background-color: #7fe9ff36;
+}
+.Prntbtndv {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: space-evenly;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.navlink {
+  text-decoration: none;
+  color: #03a9f4;
+  border: 1px solid black;
+  padding: 9px;
+  background-color: black;
+  border-radius: 7px;
+}
+.navlink:hover {
+  background-color: cornsilk;
+  color: black;
+  transition: 0.5s;
+}
+.PrntbtndvRG div {
+  padding: 5px;
+}
+.navbar {
+  width: 100%;
+  height: 70px;
+  display: flex;
+}
+.left {
+  width: 50%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  padding: 28px;
+}
+.left div {
+  margin: 20px;
+}
+.left div a {
+  text-decoration: none;
+  font-size: 25px;
+}
+.left div a:hover {
+  color: #03a9f4;
+}
+.active {
+  color: red;
+}
+.homeMain {
+  width: 100%;
+  height: 718px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.homesec {
+  width: 50%;
+  height: 50%;
+  background: #7fe9ff36;
+}
+.homesec div {
+  margin: 10px;
+}
+.homesec div a {
+  text-decoration: none;
+}
+.homesec div a:hover {
+  color: red;
+}
+.homesec :active {
+  color: #03a9f4;
+}
+.chekpage {
+  margin: 50px;
+  padding: 20px;
+}
+.thnks a {
+  color: rgb(220, 93, 176);
+}
+.hbtn {
+  margin: 20px;
+}
+/* .lnk {
+  background-color: #03a9f4;
+  padding: 5px;
+  border-radius: 10px;
+  color: chartreuse;
+  margin: 2px;
+}
+.lnk:hover{
+  color: black;
+} */

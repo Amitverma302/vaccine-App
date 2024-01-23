@@ -1,24 +1,51 @@
-import logo from './logo.svg';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import './App.css';
+import RegisterPage from './Components/RegisterPage';
+import CheckPage from './Components/CheckPage';
+import { ToastContainer } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+import Navbar from './Components/Navbar';
+import HomePage from './Components/HomePage';
+import About from './Components/About';
+import AboutChkPage from './Components/AboutChkPage';
+import Thank from './Components/Thank';
+import Search from './Components/Search';
+import AboutregiPage from './Components/AboutregiPage';
+
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <ToastContainer
+        position="top-right"
+        autoClose={2000}
+        hideProgressBar={false}
+        newestOnTop={false}
+        closeOnClick
+        rtl={false}
+        pauseOnFocusLoss
+        draggable
+        pauseOnHover
+        theme="light"
+      />
+      <ToastContainer />
+      <BrowserRouter>
+        <Navbar />
+        <Routes>
+          <Route path="/" element={<HomePage />} />
+          <Route path="/registerPage" element={<RegisterPage />} />
+          <Route path="/checkPage" element={<CheckPage />} />
+          <Route path="/about/" element={<About />} >
+            <Route path="aboutChkPage/" element={<AboutChkPage />} />
+            <Route path="aboutregPage/" element={<AboutregiPage />}  >
+              <Route path="thank" element={<Thank />} />
+            </Route>
+          </Route>
+          <Route path='/search' element={<Search/>}/>
+        </Routes>
+      </BrowserRouter>
+    </>
   );
 }
 
