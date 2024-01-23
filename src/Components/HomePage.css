@@ -6,7 +6,8 @@
   justify-content: center;
   align-items: center;
   margin-top: 211px;
-  background-color: #7fe9ff36;
+  box-shadow: 2px 0px 10px -4px #101010;
+  background-color: #ffffff;
 }
 .Prntbtndv {
   width: 100%;
