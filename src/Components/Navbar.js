@@ -12,6 +12,8 @@ function Navbar() {
                         <div><NavLink to="/registerPage">Register</NavLink></div>
                         <div><NavLink to="/about">About</NavLink></div>
                         <div><NavLink to="/search">Search</NavLink></div>
+                        <div><NavLink to="/login">Login</NavLink></div>
+                        <div><NavLink to="/Croper">Croper</NavLink></div>
                     </div>
                 </div>
             </div>

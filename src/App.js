@@ -11,6 +11,8 @@ import AboutChkPage from './Components/AboutChkPage';
 import Thank from './Components/Thank';
 import Search from './Components/Search';
 import AboutregiPage from './Components/AboutregiPage';
+import LoginPage from './Components/LoginPage';
+import  Demo  from './Components/Demo';
 
 
 
@@ -42,7 +44,9 @@ function App() {
               <Route path="thank" element={<Thank />} />
             </Route>
           </Route>
-          <Route path='/search' element={<Search/>}/>
+          <Route path='/search' element={<Search />} />
+          <Route path='/login' element={<LoginPage />} />
+          <Route path='/Croper' element={<Demo />} />
         </Routes>
       </BrowserRouter>
     </>

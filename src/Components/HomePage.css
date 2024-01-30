@@ -105,3 +105,16 @@
 .lnk:hover{
   color: black;
 } */
+.loginmain{
+  text-align: center;
+  margin: 20px;
+  margin-top: 300px;
+}
+.box {
+  display: inline-block;
+  padding: 10px;
+  box-sizing: border-box;
+}
+.img-preview {
+  overflow: hidden;
+}
