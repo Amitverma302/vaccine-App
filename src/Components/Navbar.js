@@ -14,6 +14,8 @@ function Navbar() {
                         <div><NavLink to="/search">Search</NavLink></div>
                         <div><NavLink to="/login">Login</NavLink></div>
                         <div><NavLink to="/Croper">Croper</NavLink></div>
+                        <div><NavLink to="/imagegallery">Gallery</NavLink></div>
+                        <div><NavLink to="/testing">Other</NavLink></div>
                     </div>
                 </div>
             </div>
